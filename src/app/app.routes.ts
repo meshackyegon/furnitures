@@ -36,5 +36,9 @@ export const appRoutes: Route[] = [
     {
         path: 'sofa',
         component:SofaComponent,
+    },
+    {
+        path: '',
+        component:SofaComponent,
     }
 ];
