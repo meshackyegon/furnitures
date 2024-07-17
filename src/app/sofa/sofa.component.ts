@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from '../footer/footer.component';
 
+
 @Component({
   selector: 'app-sofa',
   standalone: true,
@@ -9,4 +10,6 @@ import { FooterComponent } from '../footer/footer.component';
   templateUrl: './sofa.component.html',
   styleUrl: './sofa.component.css',
 })
-export class SofaComponent {}
+export class SofaComponent  {
+
+}
