@@ -7,6 +7,7 @@ import { OccasionalComponent } from './occasional/occasional.component';
 import { OfficedesksComponent } from './officedesks/officedesks.component';
 import { SofaComponent } from './sofa/sofa.component';
 import { DetailsComponent } from './details/details.component';
+import { LoginComponent } from './login/login.component';
 
 
 export const appRoutes: Route[] = [
@@ -62,5 +63,8 @@ export const appRoutes: Route[] = [
     {
         path: '',
         component:SofaComponent,
+    },{
+        path: 'login',
+        component:LoginComponent,
     }
 ];

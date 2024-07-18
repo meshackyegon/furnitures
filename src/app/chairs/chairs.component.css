@@ -1,0 +1,32 @@
+/* chairs.component.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .card-title {
+    margin-top: 8px;
+    font-weight: bold;
+  }
+  
+  .image-container {
+    margin-bottom: 8px;
+  }
+  
